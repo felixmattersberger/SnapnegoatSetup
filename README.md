@@ -15,14 +15,16 @@ chmod +x setup.sh
 ```
 ./setup.sh
 ```
+4. Logout/login or reboot to apply path changes
 
-4. Execute jar-file `SnapNegoat.jar`
+
+5. Execute jar-file `SnapNegoat.jar`
 
 ```
 java -jar SnapNegoat.jar
 ```
 
-5. Snapnegoat is now running
+6. Snapnegoat is now running
 
 ```
 http://localhost:8080 or http://ip-adress:8080
