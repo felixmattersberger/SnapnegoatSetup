@@ -1,27 +1,29 @@
-# SnapnegoatSetup
+# SnapnegoatSetup for Linux Server
 
-# Linux (tested with ubuntu server):
-
-add `setup.sh`from the following Repo to root folder:
+1. Clone the following Repo:
 
 https://github.com/felixmattersberger/SnapnegoatSetup
 
-change to executable
+2. Add execute permission to `setup.sh`
 
 ```
 chmod +x setup.sh
 ```
 
-execute (may take some time...)
+3. Execute and install all packages (may take some time...)
 
 ```
 ./setup.sh
 ```
 
-clone latest `.jar` file from repo
-
-execute jar file by
+4. Execute jar-file `SnapNegoat.jar`
 
 ```
-java -jar Snapnegoat.jar
+java -jar SnapNegoat.jar
+```
+
+5. Snapnegoat is now running
+
+```
+http://localhost:8080 or http://ip-adress:8080
 ```
