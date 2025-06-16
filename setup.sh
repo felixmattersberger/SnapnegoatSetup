@@ -26,9 +26,9 @@ sudo apt update
 echo "Installiere OpenJDK 21..."
 sudo apt install -y openjdk-21-jdk
 
-echo "Setze Java 21 als Standard..."
-sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-21-openjdk-amd64/bin/java 1
-sudo update-alternatives --set java /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# echo "Setze Java 21 als Standard..."
+# sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-21-openjdk-amd64/bin/java 1
+# sudo update-alternatives --set java /usr/lib/jvm/java-21-openjdk-amd64/bin/java
 
 echo "Installation abgeschlossen."
 echo ""
