@@ -13,8 +13,11 @@ sudo apt install -y python3 python3-pip
 echo "Installiere FFmpeg..."
 sudo apt install -y ffmpeg
 
-echo "Installiere Whisper (openai-whisper) und Torch..."
-pip3 install --upgrade openai-whisper torch
+sudo apt install pipx -y
+pipx ensurepath
+
+pipx install openai-whisper
+pipx ensurepath
 
 echo "Füge PPA für Java 21 hinzu..."
 sudo add-apt-repository -y ppa:openjdk-r/ppa
