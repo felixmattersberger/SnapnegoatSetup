@@ -1,4 +1,4 @@
-# SnapnegoatSetup for Linux Server
+# SnapnegoatSetup for Linux
 
 1. Clone the following Repo:
 
@@ -27,3 +27,5 @@ java -jar SnapNegoat.jar
 ```
 http://localhost:8080 or http://ip-adress:8080
 ```
+
+Setup was successfully tested with Ubuntu Server 24.04.2 LTS.
