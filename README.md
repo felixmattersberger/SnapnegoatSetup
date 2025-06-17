@@ -30,4 +30,8 @@ java -jar SnapNegoat.jar
 http://localhost:8080 or http://ip-adress:8080
 ```
 
+`SnapNegoat1_1.jar` has a self-signed https certificate. If used, you can access it with 
+```
+https://localhost:8443 or https://ip-adress:8443
+```
 Setup was successfully tested with Ubuntu Server 24.04.2 LTS.
